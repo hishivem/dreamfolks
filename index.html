@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreamfolks</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/header1.css">
+    <link rel="stylesheet" href="assets/css/header2.css">
+    <link rel="stylesheet" href="assets/css/Paralax-Hero-Banner.css">
+    <link rel="stylesheet" href="assets/css/Paralax-Hero-Banner1.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navigation-clean" style="padding:0px;background-color:#f8f8f8;color:rgb(11,11,11);">
+        <div class="container">
+            <div class="navbar-header"><a class="navbar-brand navbar-link" href="index.html"><img src="assets/img/dreamfolks-logo.png"></a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li role="presentation"><a href="#" style="color:rgb(3,3,3);">Services </a></li>
+                    <li role="presentation"><a href="#" style="color:rgb(3,3,3);" data-toggle="modal" data-target="#myModal">Login </a></li>
+                    <li role="presentation"><a href="joinnow.html" style="color:rgb(11,11,11);">Join Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Large modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-8" style="border-right: 1px dotted #C2C2C2;padding-right: 30px;">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#Login" data-toggle="tab">Login</a></li>
+                                <li><a href="#Registration" data-toggle="tab">Registration</a></li>
+                            </ul>
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="Login">
+                                    <form role="form" class="form-horizontal">
+                                    <div class="form-group">
+                                        <label for="email" class="col-sm-2 control-label">
+                                            Email</label>
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="email1" placeholder="Email" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1" class="col-sm-2 control-label">
+                                            Password</label>
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <button type="submit" class="btn btn-primary btn-sm">
+                                                Submit</button>
+                                            <a href="javascript:;">Forgot your password?</a>
+                                        </div>
+                                    </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane" id="Registration">
+                                    <form role="form" class="form-horizontal">
+                                    <div class="form-group">
+                                        <label for="email" class="col-sm-2 control-label">
+                                            Name</label>
+                                        <div class="col-sm-10">
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <select class="form-control">
+                                                        <option>Mr.</option>
+                                                        <option>Ms.</option>
+                                                        <option>Mrs.</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-9">
+                                                    <input type="text" class="form-control" placeholder="Name" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email" class="col-sm-2 control-label">
+                                            Email</label>
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="email" placeholder="Email" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="mobile" class="col-sm-2 control-label">
+                                            Mobile</label>
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="mobile" placeholder="Mobile" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="password" class="col-sm-2 control-label">
+                                            Password</label>
+                                        <div class="col-sm-10">
+                                            <input type="password" class="form-control" id="password" placeholder="Password" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <button type="button" class="btn btn-primary btn-sm">
+                                                Save & Continue</button>
+                                            <button type="button" class="btn btn-default btn-sm">
+                                                Cancel</button>
+                                        </div>
+                                    </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div id="OR" class="hidden-xs">
+                                OR</div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row text-center sign-with">
+                                <div class="col-md-12">
+                                    <h3>
+                                        Sign in with</h3>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="btn-group btn-group-justified">
+                                        <a href="#" class="btn btn-primary">Facebook</a> <a href="#" class="btn btn-danger">
+                                            Google</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron hero-technology mob-margin-top" style="height:630px;background-image:url(assets/img/dreamfolks1.jpg);margin-bottom:0px;">
+        <h1 class="hero-title mob-hide" style="color:rgb(6,6,6);font-size: 75px;">Your Airport Experience <br>Amplified !</h1>
+        <div class="col-md-4 hidden-sm hidden-xs"></div>
+        <div class="col-md-4 col-sm-12 col-xs-12" style="margin-top: 20px">
+            <select class="select-attri text-black mob-back-white w-100" tabindex="1">
+                <option value="">Select or Type Name of City, Airport Name or Airport Code</option>
+                <option value="Ahmedabad - Sardar Vallabhbhai Patel International Airport (SVPIA) - AMD">Ahmedabad - Sardar Vallabhbhai Patel International Airport (SVPIA) - AMD</option>
+                <option value="Bangalore - Kempegowda International Airport Bengaluru - BLR">Bangalore - Kempegowda International Airport Bengaluru - BLR</option>
+            </select>
+        </div>
+        <div class="col-md-4 hidden-sm hidden-xs"></div>
+    </div>
+    <div data-bs-parallax-bg="true" style="height:500px;background-image:url(assets/img/dreamfolks2.jpg);background-position:center;background-size:cover;">
+        <div class="row ml-162 mr-162">
+            <center>
+                <div class="">
+                    <center>
+                        <h2 style="text-align: center;">
+                            <span style="color: white">DreamFolks Card Benefits</span>
+                        </h2>
+                    </center>
+                </div>
+                <hr>
+            </center>
+            <div class="row">
+                <div class="col-md-12 col-xs-12 col-sm-12 container">
+                    <div class="col-sm-12 col-xs-12 hidden-md hidden-lg">
+                        <center>
+                            <img src="assets/img/card.png" class="w-200">
+                        </center>
+                    </div>
+                    <div class="col-sm-12 col-xs-12 hidden-md hidden-lg">
+                        <div class="pl-section-pad fix">
+                            <div class="textbox-wrap pl-animation   animation-loaded" style="">
+                                <div class="hentry" data-sync="textbox_content">
+                                    <p>
+                                        <a href="#"><img class="alignright size-full wp-image-134 w-250" src="assets/img/1.png" alt="" scale="0"></a>
+                                        <br>
+                                        <a href="#"><img class="alignright size-full wp-image-134 w-250" src="assets/img/2.png" alt="" scale="0"></a>
+                                        <br>
+                                        <a href="#"><img class="alignright size-full wp-image-134 w-250" src="assets/img/3.png" alt="" scale="0"></a>
+                                        <br>
+                                        <a href="#"><img class="alignright size-full wp-image-134 w-250" src="assets/img/4.png" alt="" scale="0"></a>
+                                        <br>
+                                        <a href="#"><img class="alignright size-full wp-image-134 w-250" src="assets/img/5.png" alt="" scale="0"></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 hidden-sm hidden-xs">
+                        <center>
+                            <img src="assets/img/card.png">
+                        </center>
+                    </div>
+                    <div class="col-md-6 hidden-sm hidden-xs">
+                        <div class="pl-section-pad fix">
+                            <div class="textbox-wrap pl-animation animation-loaded" style="">
+                                <div class="hentry" data-sync="textbox_content">
+                                    <p>
+                                        <a href="#"><img class="alignright size-full wp-image-134" src="assets/img/1.png" alt="" scale="0"></a>
+                                        <br>
+                                        <a href="#"><img class="alignright size-full wp-image-134" src="assets/img/2.png" alt="" scale="0"></a>
+                                        <br>
+                                        <a href="#"><img class="alignright size-full wp-image-134" src="assets/img/3.png" alt="" scale="0"></a>
+                                        <br>
+                                        <a href="#"><img class="alignright size-full wp-image-134" src="assets/img/4.png" alt="" scale="0"></a>
+                                        <br>
+                                        <a href="#"><img class="alignright size-full wp-image-134" src="assets/img/5.png" alt="" scale="0"></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="row mr-0" style="background-color: #152234;">
+            <div class="col-md-12 p-40">
+                <div class="col-md-1"></div>
+                <div class="col-md-8">
+                    <h2 style="color: white;text-align: center;">For Corporates, Employee Benefits and Individuals</h2>
+                </div>
+                <div class="col-md-3">
+                    <button class="joinnow-btn">Join Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer-dark pb-0">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-12 item">
+                        <h3>ABOUT DREAMFOLKS</h3>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Management Team</a></li>
+                            <li><a href="#">Partners</a></li>
+                            <li><a href="#">Certifications</a></li>
+                            <li><a href="#">News & Media</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 hidden-sm hidden-xs item text">
+                    </div>
+                    <div class="col-md-3 col-sm-12 item">
+                        <h3>SERVICES</h3>
+                        <ul>
+                            <li><a href="#">Lounge Access</a></li>
+                            <li><a href="#">Meet and Assist</a></li>
+                            <li><a href="#">Wellness Services</a></li>
+                            <li><a href="#">Dining Outlets</a></li>
+                            <li><a href="#">Airport Retail</a></li>
+                            <li><a href="#">Join Now</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row mr-0" style="background-color: #383535 !important;">
+                <div class="container p-0">
+                    <div class="col-md-6 container" style="display: inline-flex">
+                        <p style="padding:5px;color: inherit;" class="">DreamFolks Services Pvt Ltd © 2017</p>
+                        <a style="padding:5px;color: inherit;">Legal Disclaimer</a>
+                        <a style="padding:5px;color: inherit;">Privacy Policy</a>
+                    </div>
+                    <div class="col-md-6 container item social text-align-right">
+                        <a href="#"><i class="icon ion-social-facebook"></i></a>
+                        <a href="#"><i class="icon ion-social-twitter"></i></a>
+                        <a href="#"><i class="icon ion-social-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="assets/js/Paralax-Hero-Banner.js"></script>
+</body>
+
+</html>
